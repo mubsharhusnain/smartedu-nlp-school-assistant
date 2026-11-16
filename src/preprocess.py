@@ -8,7 +8,6 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw" / "educationq_questions.csv"
 PROCESSED = ROOT / "data" / "processed"
