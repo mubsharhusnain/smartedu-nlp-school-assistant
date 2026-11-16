@@ -10,10 +10,6 @@
 | Member 1: Mubshar Husnain | L1F23BSCS1075 |
 | Member 2: Faizan Ahmad | L1F23BSCS1060|
 
-## Shared work
-
-[Briefly describe any work completed jointly by the team. Remove this section if not applicable.]
-
 ## Declaration
 
 We confirm that this statement accurately describes each member's contribution to Assignment 2.
