@@ -5,13 +5,10 @@
 
 > Before submission, replace the placeholders below with the actual registered team members and their real contributions. Do not claim work that a member did not perform.
 
-| Team member | Registration number | Actual contribution |
+| Team member | Registration number |
 |---|---|---|
-| Member 1: [Full name] | [Roll number] | [Describe the code, experiments, analysis, report writing, or Git work completed] |
-| Member 2: [Full name] | [Roll number] | [Describe actual contribution] |
-| Member 3: [Full name, if applicable] | [Roll number] | [Describe actual contribution] |
-| Member 4: [Full name, if applicable] | [Roll number] | [Describe actual contribution] |
-| Member 5: [Full name, if applicable] | [Roll number] | [Describe actual contribution] |
+| Member 1: Mubshar Husnain | L1F23BSCS1075 |
+| Member 2: Faizan Ahmad | L1F23BSCS1060|
 
 ## Shared work
 
