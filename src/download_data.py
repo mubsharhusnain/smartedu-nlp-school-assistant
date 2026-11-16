@@ -6,7 +6,6 @@ from datasets import load_dataset
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
 OUT = RAW_DIR / "educationq_questions.csv"
-
 def main():
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     ds = load_dataset("SunriserFuture/EducationQ", "educationq_full", split="train")
