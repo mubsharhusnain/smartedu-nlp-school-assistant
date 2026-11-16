@@ -118,8 +118,7 @@ def train_and_save(df):
     first_row=X_tfidf[0]
     high=safe_top_terms(first_row,feature_names,5,True)
     idf_order=np.argsort(tfidf.idf_)
-    low=[(str(feature_names[i]),float(tfidf.idf_[i])) for i in idf_order[:5]]
-                                                                       
+    low=[(str(feature_names[i]),float(tfidf.idf_[i])) for i in idf_order[:5]]                                                             
     count_summary={
         "documents":int(X_bow.shape[0]),
         "bow_shape":[int(X_bow.shape[0]),int(X_bow.shape[1])],
@@ -133,7 +132,6 @@ def train_and_save(df):
         "combined_1_to_3_gram_shape":[int(m_all.shape[0]),int(m_all.shape[1])],
         "combined_1_to_3_gram_sparsity_percent":round(sparsity_percent(m_all),6)
     }
-
     sentences=[tokens_for_training(x) for x in docs]
     sentences=[x for x in sentences if x]
                                                                         
@@ -200,7 +198,6 @@ def train_and_save(df):
     summary["hand_worked_numerical"]=hand_worked_check()
     (OUT/"assignment2_summary.json").write_text(json.dumps(summary,indent=2,ensure_ascii=False,default=str),encoding="utf-8")
     return summary
-
 def vectorize_document(raw_document, representation="tfidf"):
     """Phase 3 interface: return a vector using a saved representation; no retraining."""
     if representation=="bow":
@@ -225,3 +222,4 @@ if __name__=="__main__":
     result=train_and_save(df)
     print(json.dumps(result,indent=2,ensure_ascii=False,default=str))
     print("\nSaved vectorizers and embeddings in models/; summary in outputs/assignment2/.")
+    
